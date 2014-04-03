@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.pkkann.birthdaylist.ChangeSortingActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button_sortingName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sortingName"
+        android:onClick="button_sortingName" />
+
+    <Button
+        android:id="@+id/button_sortingBirth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sortingBirth"
+        android:onClick="button_sortingBirth" />
+
+    <Button
+        android:id="@+id/button_sortingBirthNoYear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sortingBirthNoYear"
+        android:onClick="button_sortingBirthNoYear" />
+
+</LinearLayout>
+

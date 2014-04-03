@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dk.pkkann.birthdaylist.MainActivity" >
+    <item android:id="@+id/action_addFriend" android:title="@string/action_addFriend" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/action_changeSorting" android:title="@string/action_changeSorting" android:showAsAction="never"></item>
+
+</menu>
